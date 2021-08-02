@@ -170,6 +170,9 @@ public abstract class MaterialIntroActivity extends AppCompatActivity {
         showError(getString(R.string.please_grant_permissions));
     }
 
+    public void moveToNextSlide(){
+        viewPager.moveToNextPage();
+    }
     /**
      * Add SlideFragment to IntroScreen
      *
